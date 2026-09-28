@@ -10,9 +10,8 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
-
   {
-    path: "/task",
+    path: "/tasks",
     element: <Taskpage />,
   },
 ]);
